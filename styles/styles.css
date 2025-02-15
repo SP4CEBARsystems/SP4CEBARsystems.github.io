@@ -1,0 +1,11 @@
+body {
+    background-color: black;
+    color: white;
+    font-family: 'Courier New', Courier, monospace;
+    max-width: 800px;
+    margin-inline: auto;
+}
+
+header {
+    margin-bottom: 50px;
+}
