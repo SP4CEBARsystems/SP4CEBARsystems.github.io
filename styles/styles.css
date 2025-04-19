@@ -11,6 +11,7 @@ header {
 }
 
 nav {
+    margin-top: 230px;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
@@ -63,4 +64,48 @@ nav img {
     background-repeat: no-repeat;
     background-size: cover;
     image-rendering: pixelated;
+}
+
+.banner {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    z-index: 1;
+}
+
+.bannerBackground {
+    background-image: linear-gradient(transparent 50%, black), url('../assets/website\ banner\ 1920x576.png');
+    padding: 50px 0px 50px 0px;
+}
+
+.textAndImage {
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: contain;
+}
+
+.textBackground {
+    max-width: 800px;
+    background: rgba(0, 0, 0, 0.8);
+    color: white;
+    padding: 50px;
+    border-radius: 25px;
+    margin-inline: auto;
+}
+
+.sp4cebar-banner {
+    position:absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    /* height: calc(( 100vw / 1920px) * 576px); */
+    aspect-ratio: 1920/576;
+    z-index: -1;
+    background-image: linear-gradient(transparent, black 100%), url('../assets/website\ banner\ 1920x576.png');
+    /* padding: 50px 0px 50px 0px; */
+    background-repeat: no-repeat;
+    /* background-attachment: fixed; */
+    /* background-size: cover; */
+    background-size: contain;
+    /* background-size: 100% 100%; */
 }
