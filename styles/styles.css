@@ -112,7 +112,8 @@ nav img {
 
 .post {
     margin: 30px 0;
-    height: 100px; /* or whatever height you want */
+    /* height: 100px;  */
+    /* or whatever height you want */
     display: grid;
     grid-template-columns: auto 1fr;
     grid-template-rows: 1fr 1fr;
