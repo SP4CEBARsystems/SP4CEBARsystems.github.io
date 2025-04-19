@@ -9,3 +9,58 @@ body {
 header {
     margin-bottom: 50px;
 }
+
+nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    height: 100px;
+    /* margin-bottom: 50px; */
+    /* background-color: #111; */
+    a {
+        /* background-color: transparent; */
+        /* background-color: rgb(128, 0, 0); */
+        background: linear-gradient(to bottom right, blue, rgb(30, 30, 30));
+        color: white;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        /* padding: 10px; */
+        /* flex: 1; */
+        /* margin: 0 10px; */
+        /* margin-inline: auto; */
+        /* align-self: center; */
+        border-radius: 10%;
+        z-index: 1;
+        aspect-ratio: 3/2;
+        font-size: large;
+    }
+    .selected {
+        /* #003e80 */
+        /* background-color: rgba(255, 0, 0, 0.5); */
+        /* background-image: radial-gradient(rgba(255, 255, 255, 0) 30%, rgb(0, 101, 129)); */
+        filter: drop-shadow(0 0 0.5rem gray);
+        z-index: 1;
+    }
+}
+
+nav img {
+    object-fit: contain;
+    height: auto;
+    width: 100px;
+    height: 100px;
+    border-radius: 5%;
+    z-index: -1;
+}
+
+.sp4cebar-image {
+    border-radius: 50%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    aspect-ratio: 1;
+}
+.sp4cebank-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    image-rendering: pixelated;
+}
