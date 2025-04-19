@@ -122,11 +122,9 @@ nav img {
 }
 
 .post img {
-    background: lightgray;
     border: 2px solid black;
     grid-row: 1 / span 2;
     background-size: cover;
-    image-rendering: pixelated;
     object-fit: contain;
     /* height: auto; */
     width: 100px;
@@ -136,4 +134,8 @@ nav img {
 
 .post h2,.post p {
     margin: 0;
+}
+
+.pixelart {
+    image-rendering: pixelated;
 }
