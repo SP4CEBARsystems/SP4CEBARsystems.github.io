@@ -10,6 +10,16 @@ header {
     margin-bottom: 50px;
 }
 
+aside {
+    display: flex;
+    flex-direction: row;
+    padding: 20px 0;
+}
+
+aside a {
+    flex: 1;
+}
+
 nav {
     margin-top: 20vw;
     display: flex;
