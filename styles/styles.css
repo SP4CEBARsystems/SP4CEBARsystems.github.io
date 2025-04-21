@@ -9,7 +9,13 @@ body {
 }
 
 header {
-    margin-bottom: 50px;
+    margin-top: 80px;
+    margin-bottom: 100px;
+    padding: 0 10px;
+}
+
+footer {
+    margin-top: 150px;
 }
 
 aside {
@@ -17,7 +23,7 @@ aside {
     flex-direction: row;
     justify-content: space-between;
     flex-wrap: wrap;
-    padding: 20px 0;
+    padding: 20px 10px;
 }
 
 aside a {
@@ -151,6 +157,7 @@ nav img {
     column-gap: 20px;
     color: white;
     text-decoration: none;
+    padding: 0 10px;
 }
 
 .post img {
