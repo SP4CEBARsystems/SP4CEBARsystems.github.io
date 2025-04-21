@@ -157,7 +157,9 @@ nav img {
     column-gap: 20px;
     color: white;
     text-decoration: none;
-    padding: 0 10px;
+    background-color: rgb(25, 25, 25);
+    padding: 10px 10px;
+    border-radius: 10px;
 }
 
 .post img {
@@ -172,7 +174,11 @@ nav img {
 }
 
 .post h2,.post p {
-    margin: 0;
+    margin: 10px 0 0 0;
+}
+
+.post p {
+    color: rgb(167, 167, 167);
 }
 
 .pixelart {
