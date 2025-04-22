@@ -67,7 +67,6 @@ nav {
         /* background-color: transparent; */
         /* background-color: rgb(128, 0, 0); */
         background: linear-gradient(to bottom right, blue, rgb(30, 30, 30));
-        color: white !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -84,14 +83,14 @@ nav {
         z-index: 1;
         /* margin-left: 1em; */
         margin: 0 1em;
-        color: white;
+        color: white !important;
         text-decoration: none;
     }
     a:hover {
         background: linear-gradient(to bottom right, rgb(87, 87, 255), rgb(30, 30, 30));
-        img {
+        /* img {
             background: blue;
-        }
+        } */
     }
     .selected {
         /* #003e80 */
