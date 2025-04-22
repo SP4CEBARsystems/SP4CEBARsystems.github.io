@@ -80,24 +80,15 @@ nav {
     }
     a {
         border-radius: 10%;
-        z-index: 1;
-        /* margin-left: 1em; */
         margin: 0 1em;
         color: white !important;
         text-decoration: none;
-    }
-    a:hover {
-        background: linear-gradient(to bottom right, rgb(87, 87, 255), rgb(30, 30, 30));
-        /* img {
-            background: blue;
-        } */
     }
     .selected {
         /* #003e80 */
         /* background-color: rgba(255, 0, 0, 0.5); */
         /* background-image: radial-gradient(rgba(255, 255, 255, 0) 30%, rgb(0, 101, 129)); */
         filter: drop-shadow(0 0 0.5rem gray);
-        z-index: 1;
     }
 }
 
@@ -111,7 +102,14 @@ nav img {
     height: 100%;
     /* aspect-ratio: 1; */
     border-radius: 5%;
-    z-index: -1;
+}
+
+nav a:not(:has(img)):hover {
+    background: linear-gradient(to bottom right, rgb(87, 87, 255), rgb(72, 72, 72));
+}
+
+nav a:has(img):hover img {
+    filter: brightness(150%);
 }
 
 .sp4cebar-image {
