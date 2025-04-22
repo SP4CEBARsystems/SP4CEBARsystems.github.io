@@ -67,7 +67,7 @@ nav {
         /* background-color: transparent; */
         /* background-color: rgb(128, 0, 0); */
         background: linear-gradient(to bottom right, blue, rgb(30, 30, 30));
-        color: white;
+        color: white !important;
         display: flex;
         align-items: center;
         justify-content: center;
@@ -84,6 +84,8 @@ nav {
         z-index: 1;
         /* margin-left: 1em; */
         margin: 0 1em;
+        color: white;
+        text-decoration: none;
     }
     .selected {
         /* #003e80 */
@@ -191,6 +193,10 @@ nav img {
 
 .post h2,.post p {
     margin: 10px 0 0 0;
+}
+
+.post h2 {
+    color: white;
 }
 
 .post p {
