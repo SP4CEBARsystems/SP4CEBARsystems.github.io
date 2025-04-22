@@ -87,6 +87,12 @@ nav {
         color: white;
         text-decoration: none;
     }
+    a:hover {
+        background: linear-gradient(to bottom right, rgb(87, 87, 255), rgb(30, 30, 30));
+        img {
+            background: blue;
+        }
+    }
     .selected {
         /* #003e80 */
         /* background-color: rgba(255, 0, 0, 0.5); */
@@ -201,6 +207,10 @@ nav img {
 
 .post p {
     color: rgb(167, 167, 167);
+}
+
+.post:hover {
+    background-color: rgb(40, 40, 40);
 }
 
 .pixelart {
