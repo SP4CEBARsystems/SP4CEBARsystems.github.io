@@ -1,7 +1,7 @@
 body {
     background-color: black;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     max-width: 800px;
     margin-inline: auto;
     padding: 0 10px;
@@ -22,6 +22,10 @@ a:hover {
 
 a:active {
   color: blue;
+}
+
+section {
+    margin-bottom: 50px;
 }
 
 header {
@@ -142,6 +146,24 @@ nav a:has(img):hover img {
     background-size: contain;
 }
 
+.button {
+    margin: 30px 0;
+    column-gap: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(20, 20, 20);
+    padding: 10px 30px;
+    border-radius: 10px;
+    box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.6);
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
+.button:hover {
+    background-color: rgb(40, 40, 40);
+    box-shadow: 0 0.75rem 1.2rem rgba(0, 0, 0, 0.75);
+    color: white;
+}
+
 .post {
     margin: 30px 0;
     display: grid;
@@ -153,6 +175,7 @@ nav a:has(img):hover img {
     background-color: rgb(20, 20, 20);
     padding: 10px 10px;
     border-radius: 10px;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
 .post img {
