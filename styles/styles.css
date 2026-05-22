@@ -95,6 +95,11 @@ nav a:has(img):hover img {
     filter: brightness(150%);
 }
 
+iframe {
+    width: 100%;
+    aspect-ratio: 16/9;
+}
+
 .sp4cebar-image {
     border-radius: 50%;
     background-repeat: no-repeat;
