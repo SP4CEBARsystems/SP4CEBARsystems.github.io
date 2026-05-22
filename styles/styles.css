@@ -164,6 +164,17 @@ nav a:has(img):hover img {
     color: white;
 }
 
+.graph-card {
+    margin: 30px 0;
+    column-gap: 20px;
+    color: white;
+    text-decoration: none;
+    background-color: rgb(20, 20, 20);
+    padding: 30px 30px;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
 .post {
     margin: 30px 0;
     display: grid;
