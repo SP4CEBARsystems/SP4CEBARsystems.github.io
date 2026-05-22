@@ -175,6 +175,20 @@ nav a:has(img):hover img {
     transition: box-shadow 0.2s ease, background-color 0.2s ease;
 }
 
+.video-card {
+    margin: 30px 0;
+    /* display: grid;
+    grid-template-columns: auto 1fr;
+    grid-template-rows: auto 1fr; */
+    /* column-gap: 20px; */
+    color: white;
+    text-decoration: none;
+    background-color: rgb(20, 20, 20);
+    padding: 10px 10px;
+    border-radius: 10px;
+    transition: box-shadow 0.2s ease, background-color 0.2s ease;
+}
+
 .post {
     margin: 30px 0;
     display: grid;
@@ -203,11 +217,11 @@ nav a:has(img):hover img {
     margin: 10px 0 0 0;
 }
 
-.post h2 {
+.post h2, .video-card h2, .graph-card h2 {
     color: white;
 }
 
-.post p {
+.post p, .video-card p, .graph-card p {
     color: rgb(167, 167, 167);
 }
 
