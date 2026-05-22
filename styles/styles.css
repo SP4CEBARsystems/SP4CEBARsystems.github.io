@@ -222,11 +222,11 @@ iframe {
     border-radius: 5%;
 }
 
-.post h2,.post p {
+.post h3,.post p {
     margin: 10px 0 0 0;
 }
 
-.post h2, .video-card h2, .graph-card h2 {
+.post h3, .video-card h3, .graph-card h3 {
     color: white;
 }
 
